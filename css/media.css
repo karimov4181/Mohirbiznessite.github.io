@@ -230,6 +230,20 @@
 }
 
 
+@media(max-width: 425px) {
+    .news__slider-inner .slick-next {
+        right: -19px;
+    }
+    
+    .default-btn {
+         margin-top: -14px;
+    }
+}
+
+
+
+
+
 
 @media(max-width: 400px) {
     .header_btn::before {
@@ -246,6 +260,17 @@
     .header_email {
         padding-right: 30px;
     }
+    
+     .news__slider-inner .slick-next {
+        right: -19px;
+    }
+
+    .default-btn {
+        margin-top: -14px;
+    }
+    
+    
+    
 }
 
 @media(max-width: 320px) {
